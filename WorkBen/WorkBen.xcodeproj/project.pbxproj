@@ -15,6 +15,23 @@
 		F09BDF781D4308B2000EC875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09BDF761D4308B2000EC875 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F09BDFCE1D434E3E000EC875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09BDFC91D434E3E000EC875 /* BlizGGS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F09BDF881D432088000EC875;
+			remoteInfo = BlizGGS;
+		};
+		F09BDFD01D434E3E000EC875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09BDFC91D434E3E000EC875 /* BlizGGS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F09BDFA61D4321D4000EC875;
+			remoteInfo = GGSBundle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F09BDF651D4308B2000EC875 /* WorkBen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkBen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09BDF691D4308B2000EC875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -26,6 +43,7 @@
 		F09BDF741D4308B2000EC875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F09BDF771D4308B2000EC875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F09BDF791D4308B2000EC875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09BDFC91D434E3E000EC875 /* BlizGGS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlizGGS.xcodeproj; path = ../GGS/BlizGGS/BlizGGS.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +60,7 @@
 		F09BDF5C1D4308B2000EC875 = {
 			isa = PBXGroup;
 			children = (
+				F09BDFC91D434E3E000EC875 /* BlizGGS.xcodeproj */,
 				F09BDF671D4308B2000EC875 /* WorkBen */,
 				F09BDF661D4308B2000EC875 /* Products */,
 			);
@@ -77,6 +96,15 @@
 				F09BDF691D4308B2000EC875 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09BDFCA1D434E3E000EC875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09BDFCF1D434E3E000EC875 /* BlizGGS.app */,
+				F09BDFD11D434E3E000EC875 /* libGGSBundle.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,12 +152,35 @@
 			mainGroup = F09BDF5C1D4308B2000EC875;
 			productRefGroup = F09BDF661D4308B2000EC875 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F09BDFCA1D434E3E000EC875 /* Products */;
+					ProjectRef = F09BDFC91D434E3E000EC875 /* BlizGGS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F09BDF641D4308B2000EC875 /* WorkBen */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F09BDFCF1D434E3E000EC875 /* BlizGGS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BlizGGS.app;
+			remoteRef = F09BDFCE1D434E3E000EC875 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F09BDFD11D434E3E000EC875 /* libGGSBundle.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGGSBundle.a;
+			remoteRef = F09BDFD01D434E3E000EC875 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F09BDF631D4308B2000EC875 /* Resources */ = {
