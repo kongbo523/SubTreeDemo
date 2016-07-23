@@ -7,16 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "GGSMainViewController.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic ) GGSMainViewController *ggs;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _ggs = [[GGSMainViewController alloc]init];
+    self.title = [_ggs title];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
