@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09BDF8D1D432088000EC875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BDF8C1D432088000EC875 /* main.m */; };
+		F09BDF901D432088000EC875 /* GGSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BDF8F1D432088000EC875 /* GGSAppDelegate.m */; };
+		F09BDF931D432088000EC875 /* GGSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BDF921D432088000EC875 /* GGSMainViewController.m */; };
+		F09BDF961D432088000EC875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09BDF941D432088000EC875 /* Main.storyboard */; };
+		F09BDF981D432088000EC875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09BDF971D432088000EC875 /* Assets.xcassets */; };
+		F09BDF9B1D432088000EC875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09BDF991D432088000EC875 /* LaunchScreen.storyboard */; };
+		F09BDFA91D4321D4000EC875 /* GGSBundle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F09BDFA81D4321D4000EC875 /* GGSBundle.h */; };
+		F09BDFAB1D4321D4000EC875 /* GGSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BDFAA1D4321D4000EC875 /* GGSBundle.m */; };
+		F09BDFAF1D4325C5000EC875 /* GGSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BDF921D432088000EC875 /* GGSMainViewController.m */; };
+		F09BDFC61D4337C2000EC875 /* GGSMainViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F09BDF911D432088000EC875 /* GGSMainViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09BDFC21D432F36000EC875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09BDF801D432087000EC875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09BDFA51D4321D4000EC875;
+			remoteInfo = GGSBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F09BDFA41D4321D4000EC875 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F09BDFC61D4337C2000EC875 /* GGSMainViewController.h in CopyFiles */,
+				F09BDFA91D4321D4000EC875 /* GGSBundle.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F09BDF881D432088000EC875 /* BlizGGS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlizGGS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09BDF8C1D432088000EC875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F09BDF8E1D432088000EC875 /* GGSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGSAppDelegate.h; sourceTree = "<group>"; };
+		F09BDF8F1D432088000EC875 /* GGSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGSAppDelegate.m; sourceTree = "<group>"; };
+		F09BDF911D432088000EC875 /* GGSMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGSMainViewController.h; sourceTree = "<group>"; };
+		F09BDF921D432088000EC875 /* GGSMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGSMainViewController.m; sourceTree = "<group>"; };
+		F09BDF951D432088000EC875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09BDF971D432088000EC875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09BDF9A1D432088000EC875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09BDF9C1D432088000EC875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09BDFA61D4321D4000EC875 /* libGGSBundle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGGSBundle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09BDFA81D4321D4000EC875 /* GGSBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGSBundle.h; sourceTree = "<group>"; };
+		F09BDFAA1D4321D4000EC875 /* GGSBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGSBundle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09BDF851D432088000EC875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BDFA31D4321D4000EC875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09BDF7F1D432087000EC875 = {
+			isa = PBXGroup;
+			children = (
+				F09BDF8A1D432088000EC875 /* BlizGGS */,
+				F09BDFA71D4321D4000EC875 /* GGSBundle */,
+				F09BDF891D432088000EC875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09BDF891D432088000EC875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09BDF881D432088000EC875 /* BlizGGS.app */,
+				F09BDFA61D4321D4000EC875 /* libGGSBundle.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09BDF8A1D432088000EC875 /* BlizGGS */ = {
+			isa = PBXGroup;
+			children = (
+				F09BDF8E1D432088000EC875 /* GGSAppDelegate.h */,
+				F09BDF8F1D432088000EC875 /* GGSAppDelegate.m */,
+				F09BDF911D432088000EC875 /* GGSMainViewController.h */,
+				F09BDF921D432088000EC875 /* GGSMainViewController.m */,
+				F09BDF941D432088000EC875 /* Main.storyboard */,
+				F09BDF971D432088000EC875 /* Assets.xcassets */,
+				F09BDF991D432088000EC875 /* LaunchScreen.storyboard */,
+				F09BDF9C1D432088000EC875 /* Info.plist */,
+				F09BDF8B1D432088000EC875 /* Supporting Files */,
+			);
+			path = BlizGGS;
+			sourceTree = "<group>";
+		};
+		F09BDF8B1D432088000EC875 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09BDF8C1D432088000EC875 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09BDFA71D4321D4000EC875 /* GGSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				F09BDFA81D4321D4000EC875 /* GGSBundle.h */,
+				F09BDFAA1D4321D4000EC875 /* GGSBundle.m */,
+			);
+			path = GGSBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09BDF871D432088000EC875 /* BlizGGS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09BDF9F1D432088000EC875 /* Build configuration list for PBXNativeTarget "BlizGGS" */;
+			buildPhases = (
+				F09BDF841D432088000EC875 /* Sources */,
+				F09BDF851D432088000EC875 /* Frameworks */,
+				F09BDF861D432088000EC875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09BDFC31D432F36000EC875 /* PBXTargetDependency */,
+			);
+			name = BlizGGS;
+			productName = BlizGGS;
+			productReference = F09BDF881D432088000EC875 /* BlizGGS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09BDFA51D4321D4000EC875 /* GGSBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09BDFAE1D4321D4000EC875 /* Build configuration list for PBXNativeTarget "GGSBundle" */;
+			buildPhases = (
+				F09BDFA21D4321D4000EC875 /* Sources */,
+				F09BDFA31D4321D4000EC875 /* Frameworks */,
+				F09BDFA41D4321D4000EC875 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGSBundle;
+			productName = GGSBundle;
+			productReference = F09BDFA61D4321D4000EC875 /* libGGSBundle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09BDF801D432087000EC875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KongBo;
+				TargetAttributes = {
+					F09BDF871D432088000EC875 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F09BDFA51D4321D4000EC875 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F09BDF831D432087000EC875 /* Build configuration list for PBXProject "BlizGGS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09BDF7F1D432087000EC875;
+			productRefGroup = F09BDF891D432088000EC875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09BDF871D432088000EC875 /* BlizGGS */,
+				F09BDFA51D4321D4000EC875 /* GGSBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09BDF861D432088000EC875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09BDF9B1D432088000EC875 /* LaunchScreen.storyboard in Resources */,
+				F09BDF981D432088000EC875 /* Assets.xcassets in Resources */,
+				F09BDF961D432088000EC875 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09BDF841D432088000EC875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09BDF931D432088000EC875 /* GGSMainViewController.m in Sources */,
+				F09BDF901D432088000EC875 /* GGSAppDelegate.m in Sources */,
+				F09BDF8D1D432088000EC875 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BDFA21D4321D4000EC875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09BDFAF1D4325C5000EC875 /* GGSMainViewController.m in Sources */,
+				F09BDFAB1D4321D4000EC875 /* GGSBundle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09BDFC31D432F36000EC875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09BDFA51D4321D4000EC875 /* GGSBundle */;
+			targetProxy = F09BDFC21D432F36000EC875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09BDF941D432088000EC875 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09BDF951D432088000EC875 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09BDF991D432088000EC875 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09BDF9A1D432088000EC875 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09BDF9D1D432088000EC875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09BDF9E1D432088000EC875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09BDFA01D432088000EC875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlizGGS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OC.BlizGGS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F09BDFA11D432088000EC875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlizGGS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OC.BlizGGS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F09BDFAC1D4321D4000EC875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F09BDFAD1D4321D4000EC875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09BDF831D432087000EC875 /* Build configuration list for PBXProject "BlizGGS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09BDF9D1D432088000EC875 /* Debug */,
+				F09BDF9E1D432088000EC875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09BDF9F1D432088000EC875 /* Build configuration list for PBXNativeTarget "BlizGGS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09BDFA01D432088000EC875 /* Debug */,
+				F09BDFA11D432088000EC875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09BDFAE1D4321D4000EC875 /* Build configuration list for PBXNativeTarget "GGSBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09BDFAC1D4321D4000EC875 /* Debug */,
+				F09BDFAD1D4321D4000EC875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09BDF801D432087000EC875 /* Project object */;
+}
