@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8ED1B9240776208C11BAA014B5D1F157F73B50B2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CD0312242FD6F734B6DEFF28C0D2D6A449408F67" : 0,
+    "8ED1B9240776208C11BAA014B5D1F157F73B50B2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "326B2D0F-7CE4-463D-98D1-D8822BC457F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CD0312242FD6F734B6DEFF28C0D2D6A449408F67" : "BlzGGS\/",
+    "8ED1B9240776208C11BAA014B5D1F157F73B50B2" : "SubTreeDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WorkBen",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WorkBen\/WorkBen.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kongbo523\/SubTreeDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8ED1B9240776208C11BAA014B5D1F157F73B50B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kongbo523\/BlzGGS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD0312242FD6F734B6DEFF28C0D2D6A449408F67"
+    }
+  ]
+}
