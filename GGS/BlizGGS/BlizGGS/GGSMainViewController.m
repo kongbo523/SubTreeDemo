@@ -21,7 +21,7 @@
     self.title = @" GGS ";
     
     
-    
+    self.title = @"GGS6";
     
     
     
